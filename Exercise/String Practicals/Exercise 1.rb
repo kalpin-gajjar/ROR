@@ -8,6 +8,8 @@ def longestCommonPrefix(arr)
     for i in 0...sortedArr[0].length
         if sortedArr[0][i] == sortedArr[-1][i]
             str << sortedArr[0][i]
+        else
+            break
         end
     end
 
